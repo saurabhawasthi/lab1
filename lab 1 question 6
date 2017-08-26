@@ -1,0 +1,20 @@
+# lab1
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+float r;
+cout << "\nenter radius of circle :;
+cin>>r;
+cout << "\nradius of circle entered is \t"<<r;
+float d,c,area;
+d=2*r;
+c=2*3.14*r;
+area=3.14*r*r;
+cout << "\nthe diametre of given radius is ="<<d;
+cout << "\nthe circumference of of given radius of circle is ="<<c;
+cout << "\nthe area of given radius of circle is ="<<area;
+return 0;
+}
