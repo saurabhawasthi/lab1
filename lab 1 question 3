@@ -1,0 +1,26 @@
+# lab1
+# include <iostream>
+
+using namespace std;
+
+int main()
+{
+float a,b;
+
+cout<< "enter first no. :\n";
+cin>>a;
+cout << "enter seconed no. :\n;
+cin>>b;
+cout << " the no. entered are \t"<<a<<"\tand\t"<<b<<"\n";
+float sum,sub,mul,div;
+sum=a+b;
+sub=a-b;
+mul=a*b;
+div=a/b;
+cout <<the sum of given no. is =\n"<<sum;
+cout << "the sub of of given no. is =\n" <<sub;
+cout << " the mul of given no. is =\n" <<mul;
+cout << " the div of given no. is =\n" <<div;
+
+return 0;
+}
