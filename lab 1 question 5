@@ -1,0 +1,21 @@
+# lab1
+#include <iostream>
+
+using namespace std;
+
+int main()
+  {
+   float a,b;
+
+   cout << "enter length of reactangle :\n;
+   cin>>a;
+   cout << "enter breath of reactangle :|n;
+   cin>>b;
+   cout<< "the length and breath of reactangle are \t"<<a<<"\tand\t"<<b<<"\n";
+   float A;
+   A=a*b;
+   cout << "\n area of reactangle is = "<<A;
+
+   return 0;
+
+}
