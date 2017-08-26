@@ -1,0 +1,21 @@
+# lab1
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+float a,b;
+cout << "enter first nuuber :\n";
+
+cin >> a;
+cout << "enter seconed number :\n";
+
+cin >> b;
+
+cout << "\n data enterd by you is \n"<< a<<b<<"t"\;
+float sum;
+sum=a+b;
+cout <<"\n the sum of given no. is = "<<sum;
+return 0;
+}
